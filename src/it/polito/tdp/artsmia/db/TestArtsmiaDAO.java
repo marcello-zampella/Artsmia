@@ -10,7 +10,7 @@ public class TestArtsmiaDAO {
 
 		ArtsmiaDAO dao = new ArtsmiaDAO();
 			
-		List<ArtObject> objects = dao.listObjects();
+		List<ArtObject> objects = dao.listObjects(null);
 		System.out.println(objects.get(0));
 		System.out.println(objects.size());
 	}
